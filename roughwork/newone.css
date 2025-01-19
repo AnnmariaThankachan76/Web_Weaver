@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  height: 100vh;
+  display: flex;
+}
+
+.split-screen {
+  display: flex;
+  width: 100%;
+}
+
+.gallery {
+  flex: 1;
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  background: #e6e6e6;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+gallery img:hover {
+  transform: scale(1.05);
+}
+
+.display {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input:checked + img {
+  display: flex;
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.display img {
+  display: none;
+}

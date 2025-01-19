@@ -1,0 +1,243 @@
+*{
+  margin:0;
+  border:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color:#E4E0E1;
+}
+.headbox{
+
+  flex-direction: column;
+  position: relative;
+  /*top: 1px;*/
+  height: 350px;
+  background-color:#AB886D ;
+}
+.innerbox{
+  position: absolute;
+  left: 30px;
+  height: 350px;
+  width: 500px;
+  border-radius: 4px;
+  background-color:#E4E0E3 ;
+}
+.image_container{
+  height: 30%;
+  width: 40%;
+  border:2px solid #AB886D;
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  position: absolute;
+  top: 17%;
+  /*bottom: 50%;*/
+  left: 20%;
+  /*transform: translate(-50%,-50%);*/
+}
+img{
+  height: 280px;
+  width: 280px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.name{
+  position: relative;
+  top: 100px;
+  left: 550px;
+  height: 200px;
+  width: 1100px;
+  /* border: 2px solid black;*/
+}
+.first-name{
+  /*border: 2px solid red;*/
+  height: 90px;
+  font-size: 100px;
+  font-weight: 800;
+  font-style: bold;
+}
+.blankarea{
+  /*border: 2px solid blue;*/
+  height: 40px;
+}
+.designation{
+  /*border: 2px dotted violet;*/
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+}
+.leftover{
+  /*border: 2px dotted brown;*/
+  height: 58px;
+  width: 510px;
+}
+.inner-designation{
+  /*border: 2px dotted yellowgreen;*/
+  height: 58px;
+  width: 580px;
+  font-size: 50px;
+  font-style: oblique;
+  font-weight: 700;
+  color: #493628;
+}
+.contact{
+  /*border: 2px solid red;*/
+  position:absolute;
+  bottom: 30%;
+  left: 70px;
+  height: 130px; 
+  width: 400px;
+}
+.phone{
+  /*border: 2px solid blue;*/
+  height: 40px; 
+  display: flex;
+  flex-direction: row;
+}
+.mail{
+  /*border: 2px solid green;*/
+  height: 40px; 
+  display: flex;
+  flex-direction: row;
+}
+.location{
+ /* border: 2px solid palevioletred;*/
+  height: 40px; 
+  display: flex;
+  flex-direction: row;
+}
+.icon{
+  /*border: 2px solid black;*/
+  height:40px ;
+  width: 70px;
+  object-fit: cover;
+}
+i{
+  position: absolute;
+  left: 44px;
+  margin-top: 20px;
+  
+}
+.detail{
+  /*border: 2px dotted blue;*/
+  height:40px ;
+  width: 320px;
+  color: black;
+  padding-top: 5px;
+  padding-left: 7px;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: 500;
+}
+
+
+.main-part{
+  height: 540px;
+  width: 1200px;
+  /*border:  2px solid black;*/
+  position: absolute;
+  top:  42%;
+  left: 30%;
+}
+.introduction{
+  width: 1200px;
+  height: 160px;
+  /*border: 2px solid red;*/
+  display:flex;
+  flex-direction: row;
+  padding-bottom: 35px;
+}
+.profile{
+  height: 160px;
+ /* border: 2px solid blue;*/
+  width: 840px; 
+}
+.about-me{
+  height: 40px;
+ /* border: 2px solid green;*/
+  width: 840px;
+  text-align: center;
+  color: #865e3c;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: oblique;
+}
+.about-me-writing{
+  font-size: 19px;
+  font-style: oblique;
+  padding-top: 10px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.certifications{
+  height: 200px;
+  /*border: 2px solid green;*/
+  width: 400px;
+}
+.other{
+  height: 370px;
+  width: 1200px;
+ /* border: 2px solid green;*/
+  display: flex;
+  flex-direction: row;
+}
+.education{
+  height: 370px;
+  width: 310px;
+  /*border: 2px solid red ;*/
+}
+.heading{
+  height: 50px;
+  /*border: 2px dotted black;*/
+  color: #865e3c;
+  font-size: 35px;
+  font-weight: 800;
+  font-style: oblique;
+}
+.content{
+  height: 320px;
+  /* border: 2px dotted violet;*/
+}
+.paragraph{
+  padding: 0px 6px 15px 10px;
+  display: flex;
+  flex-direction: row;
+}
+.tick {
+  /* border: 2px solid yellow;*/
+  height: 35px;
+  width: 30px;
+}
+.tick i{
+  left: 0px;
+  position: relative;
+  bottom: 22px;
+}
+.university{
+  line-height: 23px;
+  /*border: 2px solid orange;*/
+  height: 35px;
+  width: 290px;
+  font-style: oblique;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.skills{
+  height: 370px;
+  width: 220px;
+  /*border: 2px solid blue ;*/
+}
+.experience{
+  height: 370px;
+  width: 370px;
+  /*border: 2px solid red ;*/
+}
+.language{
+  height: 370px;
+  width: 290px;
+  /*border: 2px solid blue ;*/
+}
+
+
+
